@@ -11,4 +11,11 @@ $(document).ready(function(){
     $('#right-btn').click(function() {
     	$('#player').animate({left: "+=10px"}, 'fast');
     });
+    $('#in-btn').click(function() {
+    	$('#player').fadeIn('fast');
+    });
+    $('#out-btn').click(function() {
+    	$('#player').fadeOut('fast');
+    });
+    
 });
