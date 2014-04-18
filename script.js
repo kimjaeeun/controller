@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    
+    $('#player').click(function(){
+        $('#player').effect('bounce', {times:3}, 500);
+    });
    $('#up-btn').click(function() {
     	$('#player').animate({top: "-=10px"}, 'fast');
     });
