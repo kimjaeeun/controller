@@ -1,4 +1,9 @@
 $(document).ready(function(){
+    $('#player').effect('slide', {times:3}, 500);
+    $('#player').click(function(){
+        $('#player').effect('bounce', {times:3}, 500);
+    });
+    
    $('#up-btn').click(function() {
     	$('#player').animate({top: "-=10px"}, 'fast');
     });
