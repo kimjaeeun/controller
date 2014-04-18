@@ -4,6 +4,9 @@ $(document).ready(function(){
    $('#up-btn').click(function() {
     	$('#player').animate({top: "-=10px"}, 'fast');
     });
+    $('#up-btn').hover(function(){
+        $('#up-btn').addClass('red');
+    });
     $('#down-btn').click(function() {
     	$('#player').animate({top: "+=10px"}, 'fast');
     });
